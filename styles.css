@@ -1,0 +1,53 @@
+body {
+    margin: 20px;
+    font-family: Courier New, Courier, monospace;
+}
+
+.avatar {
+    width: 170px;
+    border-radius: 20px;
+    background: #d6d6d6;
+    border: 3px solid #007f5f;
+    
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #202020;
+    color: #d6d6d6;
+    border-bottom: 5px solid #007f5f;
+    border-radius: 20px;    
+}
+
+span a {
+    text-decoration: none;
+    color: #007f5f;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.btn-follow {
+    color: 0f1419;
+    border: 1px solid #cfd9de;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #d6d6d6;
+}
+
+.btn-follow:hover {
+    background: #007f5f;
+    color:#d6d6d6;
+    border: 2px solid #007f5f;
+}
+
+
+
